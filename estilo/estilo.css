@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #05001eb9;
+    position: fixed;
+    width: 100%;
+}
+
+.cabeca {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+}
+
+.lista ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista ul li {
+    margin: 0 15px;
+}
+
+.link {
+    color: white;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.telefone {
+    display: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.telefone_menu {
+    display: none;
+    cursor: pointer;
+}
+
+/*----------------------------*/
+.conteiner {
+    width: 100%;
+    height: 110vh;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('/img/bannersoficial.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 64%;
+}
+
+
+@media screen and (max-width:730px) {
+    .cabeca {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 4rem;
+    }
+
+    .lista {
+        display: none;
+    }
+
+    .telefone {
+        display: block;
+        color: white;
+        font-size: 30px;
+    }
+
+    .telefone_menu {
+        display: none;
+    }
+
+    .telefone_menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .telefone_menu ul li {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .telefone_menu ul li:hover {
+        background-color: rgba(8, 0, 27, 0.704);
+        width: 100%;
+        text-align: center;
+    }
+
+    .open {
+        display: block;
+    }
+
+    /*----------------------------*/
+    .conteiner {
+        width: 100%;
+        height: 110vh;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-image: url('/img/bannersoficialtelefone.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 64%;
+    }
+}

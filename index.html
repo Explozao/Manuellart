@@ -5,14 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Projeto com Bootstrap Local</title>
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/estilo/estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
+    <header>
+        <nav class="cabeca">
+            <div class="logo">
+                <h1>Manuellart</h1>
+            </div>
+            <div class="lista">
+                <ul>
+                    <li class="cada"><a href="#" class="link">inicio</a></li>
+                    <li class="cada"><a href="#" class="link">sobre</a></li>
+                    <li class="cada"><a href="#" class="link">contactos</a></li>
+                </ul>
+            </div>
+            <div class="telefone">
+                <span  onclick="abrir()" class="material-symbols-outlined">menu</span>
+            </div>
+        </nav>
+        <div class="telefone_menu">
+            <ul>
+                <li class="cada"><a href="#" class="link">inicio</a></li>
+                <li class="cada"><a href="#" class="link">sobre</a></li>
+                <li class="cada"><a href="#" class="link">contactos</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="conteiner">
+            <div class="banner">
+                <h2>SEJAM todos bem vindos</h2>
+                <p>a melhor plataformada para encomenda de imagem</p>
+            </div>
+        </div>
+    </section>
 
-
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/estilo/estilo.js"></script>
 </body>
 
 </html>
