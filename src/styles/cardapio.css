@@ -1,0 +1,34 @@
+#cardapio{
+    width: 100%;
+}
+#cardapio h2{
+    font-size: 60px;
+    text-align: center;
+}
+#cardapio h3{
+    font-size: 30px;
+    text-align: center;
+}
+#cardapio .organizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#cardapio .organizar .produto_cada{
+    background-color: #ffffff;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border: 1px solid #bababa;
+    border-radius: 12px;
+}
+#cardapio .organizar .produto_cada .foto img{
+    width: 100%;
+    border-radius: 12px;
+}
+#cardapio .organizar .produto_cada .texto{
+    padding: 5px;
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+}

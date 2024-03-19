@@ -1,0 +1,62 @@
+#inicio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#inicio #cta{
+    width: 40%;
+}
+
+#inicio #cta h1{
+    font-size: 50px;
+}
+
+#inicio #cta samp{
+    color: #d00000;
+}
+
+#inicio #cta_batao{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#inicio #cta_batao .btn1{
+    font-size: 30px;
+}
+#inicio #banner{
+    width: 60%;
+}
+#inicio #banner img{
+    width: 100%;
+}
+@media screen and (max-width:1170px){
+    #inicio{
+        margin-top: 20px;
+    }
+    #inicio #cta{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #inicio #cta h1{
+        font-size: 40px;
+    }
+    
+    #inicio #cta samp{
+        color: #d00000;
+    }
+    
+    #inicio #cta_batao{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #inicio #cta_batao .btn1{
+        font-size: 30px;
+    }
+    #inicio #banner{
+        display: none;
+    }
+}
