@@ -2,12 +2,15 @@
     width: 100%;
 }
 #cardapio h2{
-    font-size: 60px;
+    font-size: 30px;
+    font-weight: 700;
     text-align: center;
+    color: #ce0000;
 }
 #cardapio h3{
     font-size: 30px;
     text-align: center;
+    color: #585858;
 }
 #cardapio .organizar{
     display: flex;
@@ -17,11 +20,17 @@
 }
 #cardapio .organizar .produto_cada{
     background-color: #ffffff;
-    width: 300px;
+    width: 250px;
     height: 400px;
     margin: 10px;
     border: 1px solid #bababa;
     border-radius: 12px;
+    transition: .6s;
+}
+#cardapio .organizar .produto_cada:hover{
+    width: 320px;
+    height: 500px;
+    box-shadow: 0 0 12px black;
 }
 #cardapio .organizar .produto_cada .foto img{
     width: 100%;
@@ -29,6 +38,28 @@
 }
 #cardapio .organizar .produto_cada .texto{
     padding: 5px;
+    text-align: center;
+}
+#cardapio .organizar .produto_cada .texto P{
+    margin-bottom: 2px;
+}
+#cardapio .organizar .produto_cada .texto P{
+    margin-bottom: 12px;
     color: rgb(94, 94, 94);
-    font-size: 20px;
+}
+#cardapio .organizar .btn1{
+    display: none;
+}
+center{
+    margin: 20px 0;
+}
+@media screen and (max-width:700px){
+    #cardapio .organizar .produto_cada{
+        width: 100%;
+        height: 450px;
+    }
+    #cardapio .organizar .btn1{
+        display: block;
+        margin: 0 10px;
+    }
 }

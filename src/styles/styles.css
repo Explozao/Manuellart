@@ -9,11 +9,9 @@
 }
 body{
     background-color: #ffffff;
-    padding-left: 4%;
-    padding-right: 4%;
 }
-#content{
-    padding-top: 60px;
+.tudo{
+    padding: 0 1%;
 }
 .btn1{
     border: none;
